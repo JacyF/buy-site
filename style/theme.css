@@ -1,0 +1,15 @@
+
+:root.theme-dark {
+    --bg-color: hsl(210, 16%, 12%);
+}
+
+:root.theme-light {
+    --bg-color:#fff;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-color:#fff;
+    }
+}
+
