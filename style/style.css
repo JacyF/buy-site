@@ -7,6 +7,7 @@
     min-block-size: 100vh;
     background-color: var(--bg-color, hsl(210, 16%, 12%));
     font-family: "Open Sans", sans-serif;
+    line-height: 1
 }
 
 
@@ -61,8 +62,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-inline-size: 1000px;
-    padding: 25px 50px;
+    max-inline-size: 960px;
+    padding: 25px 48px;
+    /* padding: 10px 15px; */
     inline-size: 100%;
 }
 
@@ -72,7 +74,7 @@
 }
 .plan-block {
 
-    max-inline-size: 1000px;
+    max-inline-size: 960px;
     margin: 50px 0 25px;
     display: grid;
     text-align: center;
@@ -89,6 +91,7 @@ img {
     /* aspect-ratio: 1 /1 ; */
     object-fit: contain;
     object-position: center;
+    margin-block-end: 25px;
 }
 
 .plan-title {
@@ -144,7 +147,7 @@ img {
 }
 
 
-@media (max-width : 882px) {
+@media (max-width : 900px) {
     .page {
         background-color: var(--main-bg-color, hsl(210, 20%, 15%));
         gap: 0;
